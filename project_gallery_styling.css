@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.container {
+  display: flex; 
+}
+body {background-color: black;
+}
+.projectsgrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center, space-between;
+  align-content: center;
+  align-items: center, stretch;
+  background-color: black;
+  
+}
+.flexboxitem {
+  width: 200px; 
+  height: 200px;
+}
+.flexboxitem1 {
+ 
+}
+.flexboxitem2 {
+  
+}
+.flexboxitem3 {
+  
+}
+.flexboxitem4 {
+  
+}
+.flexboxitem5 {
+ 
+}
+.flexboxitem6 {
+  
+}
+
+.image{
+  object-fit: cover; 
+      border: 3px solid mediumspringgreen;
+      box-shadow: 3px 3px white, -1em 0 .4em mintcream;
+    }
+
+    .rollover {
+      object-fit: cover;
+      width: 200px; 
+      height: 200px;
+      display: block;
+      width: 400px;
+      height: 300px;
+      background: plum (221, 160, 221, 0)
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+  
+  .rollover:hover {
+      background: plum
+  }
+
+h1 {color: black;
+  font-family: "DotGothic16", sans-serif;
+  text-shadow: 1px 1px 2px white, 0 0 1em green, 0 0 0.4em white;
+  text-align: center;}
